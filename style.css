@@ -1,0 +1,68 @@
+body{
+  background:#f8fafc;
+}
+
+
+.filters a{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+
+}
+.filters{
+   
+   margin-bottom: 20px;
+   margin-left: 30%;
+  
+   margin-top: 50px;
+}
+
+.des{
+    font-size: small;
+    
+}
+body::before{
+  content:"";
+  position:fixed;
+  width:300px;
+  height:300px;
+  border-radius:50%;
+  background:#dbeafe;
+  top:-100px;
+  right:-100px;
+  z-index:-1;
+}
+
+body::after{
+  content:"";
+  position:fixed;
+  width:250px;
+  height:250px;
+  border-radius:50%;
+  background:#fee2e2;
+  bottom:-80px;
+  left:-80px;
+  z-index:-1;
+}
+.note-pedagogie{
+  background:#fef3c7;
+}
+
+.note-evenement{
+  background:#dbeafe;
+}
+
+.note-campus{
+  background:#f3e8ff;
+}
+
+.note-technique{
+  background:#dcfce7;
+}
+.card{
+  transition:transform .2s ease;
+}
+
+.card:hover{
+  transform:translateY(-4px) rotate(-1deg);
+}
