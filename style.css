@@ -1,6 +1,4 @@
-body{
-  background:#f8fafc;
-}
+
 
 
 .filters a{
@@ -21,29 +19,8 @@ body{
     font-size: small;
     
 }
-body::before{
-  content:"";
-  position:fixed;
-  width:300px;
-  height:300px;
-  border-radius:50%;
-  background:#dbeafe;
-  top:-100px;
-  right:-100px;
-  z-index:-1;
-}
 
-body::after{
-  content:"";
-  position:fixed;
-  width:250px;
-  height:250px;
-  border-radius:50%;
-  background:#fee2e2;
-  bottom:-80px;
-  left:-80px;
-  z-index:-1;
-}
+
 .note-pedagogie{
   background:#fef3c7;
 }
@@ -63,6 +40,4 @@ body::after{
   transition:transform .2s ease;
 }
 
-.card:hover{
-  transform:translateY(-4px) rotate(-1deg);
-}
+
